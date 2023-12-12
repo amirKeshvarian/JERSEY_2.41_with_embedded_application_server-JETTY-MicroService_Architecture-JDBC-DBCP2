@@ -14,15 +14,15 @@ public class JDBCProvider {
     static {
         BASIC_DATA_SOURCE_ORCL.setDriverClassName("oracle.jdbc.driver.OracleDriver");
         BASIC_DATA_SOURCE_ORCL.setUrl("jdbc:oracle:thin:@localhost:1521/orclpdb1");
-        BASIC_DATA_SOURCE_ORCL.setUsername("amir");
-        BASIC_DATA_SOURCE_ORCL.setPassword("myjava123");
+        BASIC_DATA_SOURCE_ORCL.setUsername("****");
+        BASIC_DATA_SOURCE_ORCL.setPassword("****");
         BASIC_DATA_SOURCE_ORCL.setMaxTotal(20);
         BASIC_DATA_SOURCE_ORCL.setMaxIdle(5);
 
         BASIC_DATA_SOURCE_XEPDB.setDriverClassName("oracle.jdbc.driver.OracleDriver");
         BASIC_DATA_SOURCE_XEPDB.setUrl("jdbc:oracle:thin:@localhost:1521/xepdb1");
-        BASIC_DATA_SOURCE_XEPDB.setUsername("amir");
-        BASIC_DATA_SOURCE_XEPDB.setPassword("myjava123");
+        BASIC_DATA_SOURCE_XEPDB.setUsername("****");
+        BASIC_DATA_SOURCE_XEPDB.setPassword("****");
         BASIC_DATA_SOURCE_XEPDB.setMaxTotal(20);
         BASIC_DATA_SOURCE_XEPDB.setMaxIdle(5);
     }
